@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='tablet:mt-28 mobile:mt-5 '/>
-            <div className='grid gap-5 grid-cols-3 tablet:ml-32 mobile:text-xs tablet:text-sm tablet:mt-10 mobile:my-2'>
+            <div className='grid gap-5 grid-cols-3 tablet:ml-32 mobile:text-xs tablet:text-sm tablet:mt-10 mobile:my-2 mobile:mx-5'>
                 <div>
                     <p>Copyright © 2022 Dine <br />Market</p>
                 </div>
