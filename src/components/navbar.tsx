@@ -54,7 +54,7 @@ const Navbar = () => {
     <div  className={`tablet:w-full bg-white grid tablet:grid-cols-4 mobile:grid-cols-3 tablet:gap-3 mobile:gap-5 place-items-center tablet:mx-8 mobile:mx-2 items-center tablet:mt-0 small:mt-0 mobile:mt-0 justify-center   py-5 top-0 left-0 right-0  fixed   mx-auto   ${scrolled ? 'bg-white' : 'bg-white'}`}>
 
       <div>
-        <Link href={"/"}>
+        <Link href={"https://hackathon-piaic.vercel.app"}>
           <Image
             width={150}
             height={150}
