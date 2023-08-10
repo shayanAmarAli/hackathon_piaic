@@ -27,7 +27,7 @@ const Page = () => {
                     {
                         products.map((product: any, id: any) => {
                             return <div className='mt-5 mobile:mx-5 tablet:ml-0' key={id}>
-                                <Link href={`https://ecommerce-store-hakathon01.vercel.app/productDetail/${product._id}`}>
+                                <Link href={`https://hackathon-piaic.vercel.app/productDetail/${product._id}`}>
                                 <Image src={product.image} alt='logo' className='h-auto hover:scale-110 duration-700  bg-cover' width={400} height={300} />
                                 <h1 className="card-title  text-2xl">{product.title}</h1>
                                 <h2 className='font-semibold text-lg py-3'>{product.sub_category}</h2>
