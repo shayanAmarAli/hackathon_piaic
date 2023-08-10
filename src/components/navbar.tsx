@@ -73,10 +73,10 @@ const Navbar = () => {
       <div className='flex tablet:text-3xl ml-10 mobile:text-lg '>
         <div className='tablet:px-1 laptop:px-5 mobile:px-0 text-gray-500 mt-3'>
           {
-            !userId ? (<Link href={"https://ecommerce-store-hakathon01.vercel.app/sign-in"}><FaUserCircle /></Link>) : (<UserButton />)
+            !userId ? (<Link href={"https://hackathon-piaic.vercel.app/sign-in"}><FaUserCircle /></Link>) : (<UserButton />)
           }
         </div>
-        <Link href="https://ecommerce-store-hakathon01.vercel.app/checkoutProduct">
+        <Link href="https://hackathon-piaic.vercel.app/checkoutProduct">
           <div className='tablet:text-xl mobile:text-xs flex  py-3  rounded-full'>
             <BsCartCheck className='tablet:text-3xl mobile:text-lg ml-3  ' />
             <CartData />
@@ -88,10 +88,10 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className='absolute w-[100vw]  list-none open tablet:hidden mobile:block  bg-white   mt-72 space-y-4 py-10 text-[#292F36] content-center	 text-center  tablet:space-x-5 laptop:space-x-10  font-semibold'>
-          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><a href="https://ecommerce-store-hakathon01.vercel.app/female">Female</a></li>
-          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><a href="https://ecommerce-store-hakathon01.vercel.app/male">Male</a></li>
-          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><Link href='https://ecommerce-store-hakathon01.vercel.app/kids'>Kids</Link></li>
-          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><Link href='https://ecommerce-store-hakathon01.vercel.app/allproducts'>All Product</Link></li>
+          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><a href="https://hackathon-piaic.vercel.app/female">Female</a></li>
+          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><a href="https://hackathon-piaic.vercel.app/male">Male</a></li>
+          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><Link href='https://hackathon-piaic.vercel.app/kids'>Kids</Link></li>
+          <li className='hover:text-yellow-800 cursor-pointer' onClick={handleClick}><Link href='https://hackathon-piaic.vercel.app/allproducts'>All Product</Link></li>
          
         </div>)}
     </div>
