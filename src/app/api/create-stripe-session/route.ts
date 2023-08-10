@@ -12,7 +12,7 @@ export  async function POST(req: any, res: NextResponse){
       const redirectURL =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://ecommerce-store-hakathon01.vercel.app';
+      : 'https://hackathon-piaic.vercel.app';
 
       const session = await stripe.checkout.sessions.create({
         payment_method_types: ['card'],
