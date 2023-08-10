@@ -63,10 +63,10 @@ const Navbar = () => {
         </Link>
       </div>
       <div className='link laptop:space-x-8 tablet:space-x-3tablet:block hidden small:space-x-4 text-[1.2vw] tablet:block '>
-        <Link href="https://ecommerce-store-hakathon01.vercel.app/female">Female</Link>
-        <Link href="https://ecommerce-store-hakathon01.vercel.app/male">Male</Link>
-        <Link href="https://ecommerce-store-hakathon01.vercel.app/kids">Kids</Link>
-        <Link href="https://ecommerce-store-hakathon01.vercel.app/allproducts">All Products</Link>
+        <Link href="https://hackathon-piaic.vercel.app/female">Female</Link>
+        <Link href="https://hackathon-piaic.vercel.app/male">Male</Link>
+        <Link href="https://hackathon-piaic.vercel.app/kids">Kids</Link>
+        <Link href="https://hackathon-piaic.vercel.app/allproducts">All Products</Link>
       </div>
       <div className='laptop:ml-44 tablet:block hidden border small:ml-20 tablet:ml-20  border-gray-400 rounded-md laptop:w-80 tablet:w-60 laptop:flex p-1'><CiSearch />  <input type='text' className='pl-1 text-xs' placeholder='What you looking for?' /></div>
     
